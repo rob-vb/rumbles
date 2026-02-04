@@ -1,0 +1,77 @@
+import { MenuItem } from "@/types/menu";
+
+export const USA_FRIED_CHICKEN_ITEMS: MenuItem[] = [
+  {
+    id: "chicken-1pc",
+    name: "1 Piece Chicken",
+    description: "Single piece of our crispy fried chicken",
+    categoryId: "usa-fried-chicken",
+    price: 2.50,
+  },
+  {
+    id: "chicken-2pc",
+    name: "2 Piece Chicken",
+    description: "Two pieces of our signature crispy fried chicken",
+    categoryId: "usa-fried-chicken",
+    price: 4.50,
+    isPopular: true,
+  },
+  {
+    id: "chicken-3pc",
+    name: "3 Piece Chicken",
+    description: "Three pieces of crispy golden fried chicken",
+    categoryId: "usa-fried-chicken",
+    price: 6.00,
+    isPopular: true,
+  },
+  {
+    id: "chicken-4pc",
+    name: "4 Piece Chicken",
+    description: "Four pieces of our delicious fried chicken",
+    categoryId: "usa-fried-chicken",
+    price: 7.50,
+  },
+  {
+    id: "chicken-6pc",
+    name: "6 Piece Chicken Bucket",
+    description: "Family-size bucket of crispy fried chicken pieces",
+    categoryId: "usa-fried-chicken",
+    price: 10.95,
+    isPopular: true,
+  },
+  {
+    id: "chicken-wings-6",
+    name: "6 Chicken Wings",
+    description: "Six crispy fried chicken wings",
+    categoryId: "usa-fried-chicken",
+    price: 5.50,
+  },
+  {
+    id: "chicken-wings-12",
+    name: "12 Chicken Wings",
+    description: "Twelve crispy fried chicken wings - great for sharing",
+    categoryId: "usa-fried-chicken",
+    price: 9.95,
+  },
+  {
+    id: "chicken-strips-3",
+    name: "3 Chicken Strips",
+    description: "Three crispy chicken breast strips",
+    categoryId: "usa-fried-chicken",
+    price: 4.50,
+  },
+  {
+    id: "chicken-strips-5",
+    name: "5 Chicken Strips",
+    description: "Five tender chicken breast strips",
+    categoryId: "usa-fried-chicken",
+    price: 6.50,
+  },
+  {
+    id: "chicken-popcorn",
+    name: "Popcorn Chicken",
+    description: "Bite-sized pieces of seasoned fried chicken",
+    categoryId: "usa-fried-chicken",
+    price: 5.50,
+  },
+];
