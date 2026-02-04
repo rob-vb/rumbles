@@ -127,7 +127,7 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════
           MENU PREVIEW SECTION
           ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-deep">
         <div className="container-custom">
           <EditorialHeading
             as="h2"
@@ -302,7 +302,7 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════
           QUICK RESERVATION SECTION
           ═══════════════════════════════════════════════════════════════════ */}
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-deep">
         <div className="container-custom">
           <div className="max-w-2xl mx-auto">
             <EditorialHeading

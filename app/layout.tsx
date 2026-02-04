@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${libreBodoni.variable} ${outfit.variable} ${bebasNeue.variable} antialiased`}
+        className={`${libreBodoni.variable} ${outfit.variable} ${bebasNeue.variable} antialiased bg-deep text-[var(--text-primary)]`}
       >
         <CartProvider>
           {/* Film grain texture overlay */}

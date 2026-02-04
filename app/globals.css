@@ -49,18 +49,18 @@
 }
 
 @theme inline {
-  --color-deep: var(--bg-deep);
-  --color-surface: var(--bg-surface);
-  --color-elevated: var(--bg-elevated);
-  --color-subtle: var(--bg-subtle);
-  --color-accent: var(--accent);
-  --color-accent-hover: var(--accent-hover);
-  --color-cta: var(--cta);
-  --color-cta-hover: var(--cta-hover);
-  --color-ocean: var(--ocean);
-  --color-ocean-light: var(--ocean-light);
-  --color-success: var(--success);
-  --color-rating: var(--rating);
+  --color-deep: #08080a;
+  --color-surface: #111114;
+  --color-elevated: #1a1a1f;
+  --color-subtle: #232328;
+  --color-accent: #f0a500;
+  --color-accent-hover: #d4940a;
+  --color-cta: #ff6b35;
+  --color-cta-hover: #e85a28;
+  --color-ocean: #1e4d6b;
+  --color-ocean-light: #2d6a8a;
+  --color-success: #22c55e;
+  --color-rating: #fbbf24;
   --font-display: var(--font-libre-bodoni);
   --font-body: var(--font-outfit);
   --font-accent: var(--font-bebas-neue);
